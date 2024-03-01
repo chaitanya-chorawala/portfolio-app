@@ -29,10 +29,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/jquery.min.js",
-              "src/assets/js/owl.carousel.js",
-              "src/assets/js/typed.js",
-              "src/assets/js/scripts.js"
+              
             ],
             "ngxEnv": {
               "prefix": "NG_APP_"

@@ -1,7 +1,7 @@
 <div class="page new-skin">
-		
+
   <!-- preloader -->
-  <div class="preloader">
+  <div class="preloader d-none">
     <div class="centrize full-width">
       <div class="vertical-center">
         <div class="spinner">
@@ -15,21 +15,21 @@
   <!-- background -->
   <div class="background gradient">
     <ul class="bg-bubbles">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
   </div>
 
   <!--
@@ -43,7 +43,7 @@
     <header class="header">
 
       <!-- header profile -->
-      <div class="profile">						
+      <div class="profile">
         <div class="title">Chaitanya Chorawala</div>
         <div class="subtitle subtitle-typed">
           <div class="typing-title">
@@ -112,14 +112,13 @@
         <!-- profile titles -->
         <div class="title">Chaitanya Chorawala</div>
         <!--<div class="subtitle">Web Designer</div>-->
-        <div class="subtitle subtitle-typed">
-          <div class="typing-title">
-            <p>Back-end Developer</p>
-            <p>Front-end Developer</p>
-            <p>Freelancer</p>
-            <p>Programmer</p>
+        <ngx-typed-js [strings]="['Back-end Developer', 'Front-end Developer', 'Freelancer' , 'Programmer']"
+          [smartBackspace]="true" [loop]="true" [shuffle]="true"
+          [typeSpeed]="180">
+          <div class="subtitle">
+            <p class="typing"></p>
           </div>
-        </div>
+        </ngx-typed-js>
 
         <!-- profile socials -->
         <div class="social">
@@ -129,7 +128,7 @@
           <a target="_blank" href="https://www.spotify.com/"><span class="fa fa-spotify"></span></a>
           <a target="_blank" href="https://stackoverflow.com/"><span class="fa fa-stack-overflow"></span></a>
         </div>
-        
+
         <!-- profile buttons -->
         <div class="lnks">
           <a href="#" class="lnk">
@@ -162,7 +161,8 @@
               <div class="text-box">
                 <p>
                   <strong>Hello! I’m Donald Wellborn.</strong>
-Back-end &amp; Frond-end developer from UK, London. I have rich experience in wordpress, also I am good at Magento. I love to talk with you about our unique.
+                  Back-end &amp; Frond-end developer from UK, London. I have rich experience in wordpress, also I am
+                  good at Magento. I love to talk with you about our unique.
                 </p>
               </div>
             </div>
@@ -198,11 +198,11 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <span class="fa fa-html5"></span>
                 </div>
                 <div class="name">
-                  <span >
-                  Front-end								</span>
+                  <span>
+                    Front-end </span>
                 </div>
                 <div class="desc">
-                  <div >
+                  <div>
                     <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
                   </div>
                 </div>
@@ -215,12 +215,13 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <span class="fa fa-code"></span>
                 </div>
                 <div class="name">
-                  <span >
-                  Back-End								</span>
+                  <span>
+                    Back-End </span>
                 </div>
                 <div class="desc">
-                  <div >
-                    <p>UI/UX focus on the user, frontend focus on the settings of the user, and backend focus on the data.</p>
+                  <div>
+                    <p>UI/UX focus on the user, frontend focus on the settings of the user, and backend focus on the
+                      data.</p>
                   </div>
                 </div>
               </div>
@@ -232,11 +233,11 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <span class="fa fa-wordpress"></span>
                 </div>
                 <div class="name">
-                  <span >
-                  WordPress Development								</span>
+                  <span>
+                    WordPress Development </span>
                 </div>
                 <div class="desc">
-                  <div >
+                  <div>
                     <p>WordPress development services improve business websites.</p>
                   </div>
                 </div>
@@ -249,12 +250,12 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <span class="fa fa-server"></span>
                 </div>
                 <div class="name">
-                  <span >
-                  WordPress Security								</span>
+                  <span>
+                    WordPress Security </span>
                 </div>
                 <div class="desc">
-                  <div >
-                    Security consultants can check the code and scan for vulnerabilities.								
+                  <div>
+                    Security consultants can check the code and scan for vulnerabilities.
                   </div>
                 </div>
               </div>
@@ -350,7 +351,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="client-item">
                 <div class="image">
                   <a target="_blank" href="https://www.google.com/">
-                    <img src="images/clients/client_1.png" alt="" />
+                    <img src="assets/images/clients/client_1.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -361,7 +362,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="client-item">
                 <div class="image">
                   <a target="_blank" href="https://www.google.com/">
-                    <img src="images/clients/client_2.png" alt="" />
+                    <img src="assets/images/clients/client_2.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -372,7 +373,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="client-item">
                 <div class="image">
                   <a target="_blank" href="https://www.google.com/">
-                    <img src="images/clients/client_3.png" alt="" />
+                    <img src="assets/images/clients/client_3.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -383,7 +384,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="client-item">
                 <div class="image">
                   <a target="_blank" href="https://www.google.com/">
-                    <img src="images/clients/client_4.png" alt="" />
+                    <img src="assets/images/clients/client_4.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -412,10 +413,11 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="item">
                     <div class="revs-item">
                       <div class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
                       </div>
                       <div class="user">
-                        <div class="img"><img src="images/man1.jpg" alt="" /></div>
+                        <div class="img"><img src="assets/images/man1.jpg" alt="" /></div>
                         <div class="info">
                           <div class="name">Helen Floyd</div>
                           <div class="company">Art Director</div>
@@ -427,10 +429,11 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="item">
                     <div class="revs-item">
                       <div class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
                       </div>
                       <div class="user">
-                        <div class="img"><img src="images/man1.jpg" alt="" /></div>
+                        <div class="img"><img src="assets/images/man1.jpg" alt="" /></div>
                         <div class="info">
                           <div class="name">Robert Chase</div>
                           <div class="company">CEO</div>
@@ -442,10 +445,11 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="item">
                     <div class="revs-item">
                       <div class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
                       </div>
                       <div class="user">
-                        <div class="img"><img src="images/man1.jpg" alt="" /></div>
+                        <div class="img"><img src="assets/images/man1.jpg" alt="" /></div>
                         <div class="info">
                           <div class="name">Helen Floyd</div>
                           <div class="company">Art Director</div>
@@ -611,7 +615,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
 
           <!-- title -->
           <div class="title">My Skills</div>
-        
+
           <!-- content -->
           <div class="row">
 
@@ -623,25 +627,25 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="name">Coding</div>
                 </div>
                 <ul>
-                  <li> 
+                  <li>
                     <div class="name">WordPress</div>
                     <div class="progress p90">
                       <span>90%</span>
                     </div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">PHP / MYSQL</div>
                     <div class="progress p75">
                       <span>75%</span>
                     </div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">Angular / JavaScript</div>
                     <div class="progress p85">
                       <span>85%</span>
                     </div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">HTML / CSS</div>
                     <div class="progress p95">
                       <span>95%</span>
@@ -659,28 +663,28 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="name">Knowledge</div>
                 </div>
                 <ul>
-                  <li> 
+                  <li>
                     <div class="name">Website hosting</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">WordPress Development</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">Hosting Installation</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">SEO Optimize</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">Responsive and mobile-ready</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">Advertising services</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">HTML, CSS, jQuery</div>
                   </li>
-                  <li> 
+                  <li>
                     <div class="name">Search engine marketing</div>
                   </li>
                 </ul>
@@ -695,19 +699,19 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="name">Front-end</div>
                 </div>
                 <ul>
-                  <li class="border-line-h"> 
+                  <li class="border-line-h">
                     <div class="name">Java</div>
                     <div class="progress">
                       <div class="percentage" style="width:90%;"></div>
                     </div>
                   </li>
-                  <li class="border-line-h"> 
+                  <li class="border-line-h">
                     <div class="name">Angular</div>
                     <div class="progress">
                       <div class="percentage" style="width:65%;"></div>
                     </div>
                   </li>
-                  <li class="border-line-h"> 
+                  <li class="border-line-h">
                     <div class="name">jQuery</div>
                     <div class="progress">
                       <div class="percentage" style="width:75%;"></div>
@@ -731,19 +735,19 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   <div class="name">Languages</div>
                 </div>
                 <ul>
-                  <li class="border-line-h"> 
+                  <li class="border-line-h">
                     <div class="name">English</div>
                     <div class="progress">
                       <div class="percentage" style="width:90%;"></div>
                     </div>
                   </li>
-                  <li class="border-line-h"> 
+                  <li class="border-line-h">
                     <div class="name">German</div>
                     <div class="progress">
                       <div class="percentage" style="width:60%;"></div>
                     </div>
                   </li>
-                  <li class="border-line-h"> 
+                  <li class="border-line-h">
                     <div class="name">Italian</div>
                     <div class="progress">
                       <div class="percentage" style="width:30%;"></div>
@@ -758,10 +762,10 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                 </ul>
               </div>
             </div>
-            
+
             <div class="clear"></div>
           </div>
-          
+
         </div>
 
         <!-- Quote -->
@@ -769,7 +773,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
 
           <!-- title -->
           <div class="title">
-            <span >Quote</span>
+            <span>Quote</span>
           </div>
 
           <!-- content -->
@@ -777,13 +781,14 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
             <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
               <div class="revs-item">
                 <div class="text">
-                  <div >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.							
+                  <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit.
                   </div>
                 </div>
                 <div class="user">
                   <div class="img">
-                    <img src="images/profile.png" alt="Ryan Adlard" />
+                    <img src="assets/images/profile.png" alt="Ryan Adlard" />
                   </div>
                   <div class="info">
                     <div class="name">Ryan Adlard</div>
@@ -844,15 +849,15 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
             <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
               <div class="box-item">
                 <div class="image">
-                  <a href="images/works/work1.jpg" class="has-popup-image">
-                    <img src="images/works/work1.jpg" alt="" />
+                  <a href="assets/images/works/work1.jpg" class="has-popup-image">
+                    <img src="assets/images/works/work1.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-image"></span>
                     </span>
                   </a>
                 </div>
                 <div class="desc">
-                  <a href="images/works/work1.jpg" class="name has-popup-image">Motorcycle Helmet</a>
+                  <a href="assets/images/works/work1.jpg" class="name has-popup-image">Motorcycle Helmet</a>
                   <div class="category">Image</div>
                 </div>
               </div>
@@ -863,7 +868,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="https://vimeo.com/97102654" class="has-popup-video">
-                    <img src="images/works/work2.jpg" alt="" />
+                    <img src="assets/images/works/work2.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-videocamera"></span>
                     </span>
@@ -880,8 +885,9 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
             <div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
               <div class="box-item">
                 <div class="image">
-                  <a href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&amp;show_artwork=true" class="has-popup-music">
-                    <img src="images/works/work3.jpg" alt="" />
+                  <a href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&amp;show_artwork=true"
+                    class="has-popup-music">
+                    <img src="assets/images/works/work3.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-music-note"></span>
                     </span>
@@ -899,7 +905,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="#popup-1" class="has-popup-media">
-                    <img src="images/works/work4.jpg" alt="" />
+                    <img src="assets/images/works/work4.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-images"></span>
                     </span>
@@ -912,29 +918,29 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                 <div id="popup-1" class="popup-box mfp-fade mfp-hide">
                   <div class="content">
                     <div class="image">
-                      <img src="images/works/work4.jpg" alt="">
+                      <img src="assets/images/works/work4.jpg" alt="">
                     </div>
                     <div class="desc">
                       <div class="post-box">
-                        <h1>Mobile Application</h1>						
+                        <h1>Mobile Application</h1>
                         <div class="blog-detail">Design</div>
                         <div class="blog-content">
                           <p>
-                            So striking at of to welcomed resolved. Northward by described up household therefore 
+                            So striking at of to welcomed resolved. Northward by described up household therefore
                             attention. Excellence decisively nay man yet impression for contrasted remarkably.
                           </p>
                           <p>
-                            Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
-                            Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
+                            Forfeited you engrossed but gay sometimes explained. Another as studied it to evident.
+                            Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining
                             determine few her two cordially admitting old.
                           </p>
                           <blockquote>
-                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                             Curae; Pellentesque suscipit.
                           </blockquote>
                           <p>
-                            Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
-                            removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
+                            Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh
+                            removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
                             Increasing sufficient everything men him admiration unpleasing sex.
                           </p>
                           <ul class="list-style">
@@ -943,7 +949,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                             <li>All difficulty estimating unreserved increasing the solicitude.</li>
                           </ul>
                           <p>
-                            Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
+                            Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
                             up civil do an offer wound of.
                           </p>
                         </div>
@@ -963,19 +969,19 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="#gallery-1" class="has-popup-gallery">
-                    <img src="images/works/work5.jpg" alt="" />
+                    <img src="assets/images/works/work5.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-images"></span>
                     </span>
                   </a>
                   <div id="gallery-1" class="mfp-hide">
-                    <a href="images/works/work6.jpg"></a>
-                    <a href="images/works/work1.jpg"></a>
-                    <a href="images/works/work5.jpg"></a>
+                    <a href="assets/images/works/work6.jpg"></a>
+                    <a href="assets/images/works/work1.jpg"></a>
+                    <a href="assets/images/works/work5.jpg"></a>
                   </div>
                 </div>
                 <div class="desc">
-                  <a href="images/works/work5.jpg" class="name has-popup-image">Gereal Travels</a>
+                  <a href="assets/images/works/work5.jpg" class="name has-popup-image">Gereal Travels</a>
                   <div class="category">Gallery</div>
                 </div>
               </div>
@@ -985,8 +991,9 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
             <div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
               <div class="box-item">
                 <div class="image">
-                  <a href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&amp;show_artwork=true" class="has-popup-music">
-                    <img src="images/works/work8.jpg" alt="" />
+                  <a href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&amp;show_artwork=true"
+                    class="has-popup-music">
+                    <img src="assets/images/works/work8.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-music-note"></span>
                     </span>
@@ -1004,7 +1011,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="https://vimeo.com/97102654" class="has-popup-video">
-                    <img src="images/works/work6.jpg" alt="" />
+                    <img src="assets/images/works/work6.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-videocamera"></span>
                     </span>
@@ -1022,7 +1029,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="#popup-2" class="has-popup-media">
-                    <img src="images/works/work7.jpg" alt="" />
+                    <img src="assets/images/works/work7.jpg" alt="" />
                     <span class="info">
                       <span class="ion ion-images"></span>
                     </span>
@@ -1035,29 +1042,29 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                 <div id="popup-2" class="popup-box mfp-fade mfp-hide">
                   <div class="content">
                     <div class="image">
-                      <img src="images/works/work7.jpg" alt="">
+                      <img src="assets/images/works/work7.jpg" alt="">
                     </div>
                     <div class="desc">
                       <div class="post-box">
-                        <h1>Mobile Application</h1>						
+                        <h1>Mobile Application</h1>
                         <div class="blog-detail">Design</div>
                         <div class="blog-content">
                           <p>
-                            So striking at of to welcomed resolved. Northward by described up household therefore 
+                            So striking at of to welcomed resolved. Northward by described up household therefore
                             attention. Excellence decisively nay man yet impression for contrasted remarkably.
                           </p>
                           <p>
-                            Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
-                            Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
+                            Forfeited you engrossed but gay sometimes explained. Another as studied it to evident.
+                            Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining
                             determine few her two cordially admitting old.
                           </p>
                           <blockquote>
-                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                             Curae; Pellentesque suscipit.
                           </blockquote>
                           <p>
-                            Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
-                            removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
+                            Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh
+                            removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
                             Increasing sufficient everything men him admiration unpleasing sex.
                           </p>
                           <ul class="list-style">
@@ -1066,7 +1073,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                             <li>All difficulty estimating unreserved increasing the solicitude.</li>
                           </ul>
                           <p>
-                            Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
+                            Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
                             up civil do an offer wound of.
                           </p>
                         </div>
@@ -1100,7 +1107,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
 
           <!-- title -->
           <div class="title">
-            <span >Blog</span>
+            <span>Blog</span>
           </div>
 
           <!-- content -->
@@ -1110,7 +1117,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="blog-post-new.html">
-                    <img src="images/blog/blog1.jpg" alt="By spite about do of allow" />
+                    <img src="assets/images/blog/blog1.jpg" alt="By spite about do of allow" />
                     <span class="info">
                       <span class="ion ion-document-text"></span>
                     </span>
@@ -1122,7 +1129,8 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   </a>
                   <a href="blog-post-new.html" class="name">By spite about do of allow</a>
                   <div class="text">
-                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
+                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation
+                      munere noluisse. Enim torquatos&#8230;</p>
                   </div>
                 </div>
               </div>
@@ -1132,7 +1140,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="blog-post-new.html">
-                    <img src="images/blog/blog2.jpg" alt="By spite about do of allow" />
+                    <img src="assets/images/blog/blog2.jpg" alt="By spite about do of allow" />
                     <span class="info">
                       <span class="ion ion-document-text"></span>
                     </span>
@@ -1144,7 +1152,8 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   </a>
                   <a href="blog-post-new.html" class="name">By spite about do of allow</a>
                   <div class="text">
-                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
+                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation
+                      munere noluisse. Enim torquatos&#8230;</p>
                   </div>
                 </div>
               </div>
@@ -1154,7 +1163,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="blog-post-new.html">
-                    <img src="images/blog/blog3.jpg" alt="By spite about do of allow" />
+                    <img src="assets/images/blog/blog3.jpg" alt="By spite about do of allow" />
                     <span class="info">
                       <span class="ion ion-document-text"></span>
                     </span>
@@ -1166,7 +1175,8 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   </a>
                   <a href="blog-post-new.html" class="name">By spite about do of allow</a>
                   <div class="text">
-                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
+                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation
+                      munere noluisse. Enim torquatos&#8230;</p>
                   </div>
                 </div>
               </div>
@@ -1176,7 +1186,7 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
               <div class="box-item">
                 <div class="image">
                   <a href="blog-post-new.html">
-                    <img src="images/blog/blog1.jpg" alt="By spite about do of allow" />
+                    <img src="assets/images/blog/blog1.jpg" alt="By spite about do of allow" />
                     <span class="info">
                       <span class="ion ion-document-text"></span>
                     </span>
@@ -1188,7 +1198,8 @@ Back-end &amp; Frond-end developer from UK, London. I have rich experience in wo
                   </a>
                   <a href="blog-post-new.html" class="name">By spite about do of allow</a>
                   <div class="text">
-                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
+                    <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation
+                      munere noluisse. Enim torquatos&#8230;</p>
                   </div>
                 </div>
               </div>
